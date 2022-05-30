@@ -8,10 +8,10 @@
 
 // Event handling, user interaction is what starts the code execution.
 
-var taskInput=document.getElementById("add-item-input");//Add a new task.
+var taskInput=document.getElementById("add-item__input");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompletedTaskHolder=document.getElementById("todo-list");//ul of #incompletedTasks
-var completedTasksHolder=document.getElementById("completed-list");//completed-list
+var incompletedTaskHolder=document.getElementById("todo__list");//ul of #incompletedTasks
+var completedTasksHolder=document.getElementById("completed__list");//completed__list
 
 
 //New task list item
@@ -122,7 +122,7 @@ var deleteTask=function(){
 var taskCompleted=function(){
     console.log("Complete Task...");
 
-    //Append the task list item to the #completed-list
+    //Append the task list item to the #completed__list
     var listItem=this.parentNode;
     completedTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskIncompleted);
