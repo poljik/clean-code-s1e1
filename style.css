@@ -134,7 +134,7 @@
 }
 
 .tasklist-entry .tasklist-input {
-  width: 226px
+  width: 226px;
 }
 
 .delete-btn-img {
@@ -149,18 +149,18 @@
 
 /* Completed */
 #completed-list .tasklist-label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .tasklist-entry .tasklist-input {
-  display: none
+  display: none;
 }
 
 .edit-mode .tasklist-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .tasklist-label {
