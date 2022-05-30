@@ -20,7 +20,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
@@ -39,12 +39,12 @@
 }
 
 .tasklist {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .todo-list-entry {
-  list-style:none;
+  list-style: none;
 }
 
 .task {
@@ -54,7 +54,7 @@
 }
 
 .task-btn {
-  outline:none;
+  outline: none;
   background: none;
   border: 0px;
   color: #888;
@@ -77,7 +77,7 @@
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
-  list-style:none;
+  list-style: none;
 }
 
 .tasklist-input {
@@ -91,7 +91,7 @@
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
-  outline:none;
+  outline: none;
 }
 
 .task:focus {
@@ -155,14 +155,14 @@
 
 /* Edit Task */
 .tasklist-entry .tasklist-input {
-  display:none
+  display: none
 }
 
 .edit-mode .tasklist-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .tasklist-label {
-  display:none;
+  display: none;
 }
