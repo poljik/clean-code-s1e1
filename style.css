@@ -34,7 +34,7 @@
   margin: 0 auto 0;
 }
 
-.add-item__row_wrapper {
+.add-item__row-wrapper {
   display: flex;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .task-title,
-.todo__list_entry {
+.todo__list-entry {
   list-style: none;
 }
 
